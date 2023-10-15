@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a65a1e8f3ba47694190c73b71832633a, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  animatorOverride: {fileID: 22100000, guid: 2b1a39382fd4c3145b29a98f160d01a3, type: 2}
+  weaponPrefab: {fileID: 135425722663369494, guid: b0253ec559b3d494aa0b2713d2f6e9c1, type: 3}
+  range: 2
+  damage: 10
+  percentageBonus: 5
+  isRightHanded: 1
+  projectile: {fileID: 0}
